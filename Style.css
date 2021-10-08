@@ -66,7 +66,6 @@ html {
 }
 #navbar ul li a:hover {
     color: rgb(0, 0, 0);
-    background-color: #008008;
    border-radius: 55px;
 }
 #bikes{
@@ -153,4 +152,184 @@ html {
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
-  
+  }
+  /*Type Of Bicycles section*/
+
+#Box {
+  margin: 34px;
+  display: flex;
+  margin-top: auto;
+}
+
+#Box .box {
+  border: 2px #008080;
+  padding: 50px;
+  margin: 4px 3px;
+  border-radius: 40px;
+  border-style: unset;
+  border-width: 12px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+#Box .box:hover {
+ border-style: outset;
+}
+#Box .box h2{
+ align-items: center;
+ color: #6f9940;
+ padding-top: 20px;
+}
+#Box .box p{
+  content: flex;
+  align-items: center;
+ justify-content: center;
+ padding: 30px;
+}
+
+#Box .box img {
+  height: 250px;
+  margin: auto;
+  display: block;
+  border-radius: 50px;
+}
+
+.Type_Of_Vehicles {
+  height: 100%;
+}
+/*----------Button----------*/
+.btn {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 16px 30px;
+  cursor: pointer;
+  background-color: #00a692;
+  color: azure;
+  border-radius: 4px;
+  }
+.btn:hover {
+      content: "";
+      background-color:#008080;
+      color: white;
+  }
+/*----------Bycyclemotor-------------*/
+.Bycyclemotor{
+  padding: 100px;
+}
+/*----------Basic common necessity----*/
+.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
+  font-family: fantasy;
+}
+
+.h-secondary {
+  font-size: 1.8rem;
+}
+.centre {
+  text-align: center;
+}
+/*---------Buttons--------*/
+/*Type Of Bicycles section*/
+
+#Box {
+  margin: 34px;
+  display: flex;
+  margin-top: auto;
+}
+
+#Box .box {
+  border: 2px #008080;
+  padding: 50px;
+  margin: 4px 3px;
+  border-radius: 40px;
+  border-style: unset;
+  border-width: 12px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+#Box .box:hover {
+ border-style: outset;
+}
+#Box .box h2{
+ align-items: center;
+ color: #6f9940;
+ padding-top: 20px;
+}
+#Box .box p{
+  content: flex;
+  align-items: center;
+ justify-content: center;
+ padding: 30px;
+}
+
+#Box .box img {
+  height: 250px;
+  margin: auto;
+  display: block;
+  border-radius: 50px;
+}
+
+.Type_Of_Vehicles {
+  height: 100%;
+}
+.Type_OfF_Vehicles {
+  margin-top: 500PX;
+  height: 100%;
+}
+/*----------Button----------*/
+.btn {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 16px 30px;
+  cursor: pointer;
+  background-color: #00a692;
+  color: azure;
+  border-radius: 4px;
+  }
+.btn:hover {
+      content: "";
+      background-color:#008080;
+      color: white;
+  }
+/*----------Bycyclemotor-------------*/
+.Bycyclemotor{
+  padding: 100px;
+}
+/*----------Basic common necessity----*/
+.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
+  font-family: fantasy;
+}
+/*----------Basic common necessity----*/
+.h-secondary {
+  font-size: 1.8rem;
+}
+.centre {
+  text-align: center;
+}
+#Box1 {
+  margin: 34px;
+  display: flex;
+  margin-top: auto;
+}
+#Box1 .box1 {
+  border: 2px #008080;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 40px;
+  margin: 4px 3px;
+  border-radius: 40px;
+  border-style: unset;
+  border-width: 12px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
