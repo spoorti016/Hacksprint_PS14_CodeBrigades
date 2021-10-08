@@ -1,16 +1,23 @@
+@import url('https://fontawesome.com/v5.15/icons/heart?style=regular');
 * {
     margin: 0;
     padding: 0;
+}
+body{
+  /* background-color: #000000;
+  color: aliceblue; */
 }
 html {
     scroll-behavior: smooth;
 }
 #header{
+  position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #484848;
     color: #bcb5b5;
+    height: 50px;
 }
 /*Navigation bar*/
 #navbar {
@@ -21,6 +28,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 50px;
     
 }
 .navRight{
@@ -333,3 +341,4 @@ html {
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
 }
+/* wishlist heart */
