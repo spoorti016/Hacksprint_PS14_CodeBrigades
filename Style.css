@@ -342,3 +342,88 @@ html {
   -o-border-radius: 40px;
 }
 /* wishlist heart */
+/*--------Each Bicycle Pages---------*/
+.Indivisual1 {
+  background-color: #c5ccbc;
+}
+.Indivisual .imag-bike{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
+  font-family: fantasy;
+}
+
+.h-secondary {
+  font-size: 1.8rem;
+}
+.centre {
+  text-align: center;
+}*/
+/*Indivisual info*/
+.Indivisual1{
+  background-color: #c5ccbc;
+  padding-left: 270px;
+}
+.Indivisual{
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px;
+  border: 5px solid;
+  background-color: #c5ccbc;
+}
+#InnerInfo {
+  padding-top: 50px;
+  margin: 34px;
+  display: flex;
+  margin-top: auto;
+}
+#InnerInfo .box {
+  padding-right: 40px;
+  margin: 4px 3px;
+}
+#InnerInfo .box p{
+      font-size: 1.5rem;
+}
+/*-------Footer section------*/
+#Footersec {
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #bddfdb;
+}
+
+#Footersec .box {
+  padding: 50px;
+  margin: 4px 3px;
+}
+
+#Footersec .box h2{
+ align-items: center;
+ color: rgb(0, 0, 0);
+ padding-top: 20px;
+}
+#Footersec .box a{
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+}
+
+#Footersec .box a:hover{
+  color: rgb(0, 0, 0);
+}
+
+
+.Footer-container {
+  height: 100%;
+}
+footer {
+  background: #008080;
+  color: rgb(0, 0, 0);
+  padding: 10px 10px;
+}
