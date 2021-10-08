@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 #header{
-  position: sticky;
+   position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 90px;
     
 }
 .navRight{
