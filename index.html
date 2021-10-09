@@ -48,29 +48,45 @@
     <SECTION>
     <div class="slideshow-container">
         <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="./assets/jake-colling-w0veeEIceyI-unsplash.jpg"
-                style="width:100%; height: 650px; border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;">
+            <div class="numbertext">1 / 5</div>
+            <img src="./assets/jake-colling-w0veeEIceyI-unsplash.jpg" class="slider-img">
+                <!-- style="width:100%; height: 650px; border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;" -->
             <div class="text">Caption Text</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="./assets/gary-butterfield-j0LTy2MqaMA-unsplash.jpg"
-                style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;">
+            <div class="numbertext">2 / 5</div>
+            <img class="slider-img" src="./assets/gary-butterfield-j0LTy2MqaMA-unsplash.jpg" >
+                <!-- style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;"> -->
             <div class="text">Caption Two</div>
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="./assets/timotheus-frobel-DiCNHqRzs4w-unsplash.jpg"
-                style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;">
+            <div class="numbertext">3 / 5</div>
+            <img src="./assets/timotheus-frobel-DiCNHqRzs4w-unsplash.jpg" class="slider-img">
+                <!-- style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;"> -->
             <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="assets\istockphoto-1232568015-612x612.jpg" class="slider-img">
+                <!-- style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;"> -->
+            <div class="text">Caption Four</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="assets\istockphoto-959028830-612x612.jpg" class="slider-img">
+                <!-- style="width:100%; height: 650px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;"> -->
+            <div class="text">Caption Five</div>
         </div>
     </div>
 
     <br>
-    <div style="text-align:center">
+    <div id="dot-style">
+        <span class="dot"></span>
+        <span class="dot"></span>
         <span class="dot"></span>
         <span class="dot"></span>
         <span class="dot"></span>
@@ -92,7 +108,7 @@
             }
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 3000); // Change image every 3 seconds
+            setTimeout(showSlides, 2500); // Change image every 3 seconds
         }
     </script>
     </SECTION>
