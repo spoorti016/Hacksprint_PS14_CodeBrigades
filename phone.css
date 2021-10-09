@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation*/
+
+#navbar {
+    flex-direction: column;
+}
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 10px;
+}
+#search{
+     padding: 10px 33px;
+     width: 86px;
+}
+#navbar ul li{
+     list-style: none;
+     font-size: 0.5rem;
+}
+#navbar ul li a{
+     display: block;
+     padding:8px 5px;
+     border-radius: 20px;
+     text-decoration: none;
+     color: white;
+}
+/*type of bikr*/
+#Box {
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+#Footersec {
+    flex-direction: column;
+}
+/*Type heading*/
+#Box1{
+    width: auto;
+}
+#Box1 .box1 {
+    padding: 10px;
+}
+#Box .box {
+    border: 2px #008080;
+    border-style: outset;
+}
+.Indivisual1{
+    background-color: #c5ccbc;
+    padding-left: 20px;
+}
