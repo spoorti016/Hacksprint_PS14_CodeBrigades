@@ -436,7 +436,7 @@ font-family: 'Suez One', serif;
 }
 footer {
   background: #008080;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 10px 10px;
 }
 .Bottombtn{
@@ -444,4 +444,9 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 10px;
+}
+.Para{
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: large;
 }
