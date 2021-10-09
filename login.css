@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins',sans-serif;
-  }
-  body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
     display: flex;
     height: 100vh;
     text-align: center;
     align-items: center;
     justify-content: center;
     background: #fffefe;
-  }
-  .login-form{
+}
+
+.login-form {
     position: relative;
     width: 370px;
     height: auto;
@@ -22,22 +24,25 @@
     border: 2px solid #003131;
     border-radius: 5px;
     box-shadow: inset 1px 1px 1px #414040;
-    
-  }
-  .text{
+}
+
+.text {
     font-size: 30px;
     color: #000000;
     font-weight: 600;
     letter-spacing: 2px;
-  }
-  form{
+}
+
+form {
     margin-top: 40px;
-  }
-  form .field{
+}
+
+form .field {
     margin-top: 20px;
     display: flex;
-  }
-  .field .fas{
+}
+
+.field .fas {
     height: 50px;
     width: 60px;
     color: #484848;
@@ -46,9 +51,11 @@
     border: 1px solid #444;
     border-right: none;
     border-radius: 5px 0 0 5px;
-    background: linear-gradient(rgb(236, 236, 236),rgb(195, 194, 194));
-  }
-  .field input,form button{
+    background: linear-gradient(rgb(236, 236, 236), rgb(195, 194, 194));
+}
+
+.field input,
+form button {
     height: 50px;
     width: 100%;
     outline: none;
@@ -57,52 +64,55 @@
     padding: 0 15px;
     border-radius: 0 5px 5px 0;
     border: 1px solid #444;
-    
-    background: linear-gradient(rgb(236, 236, 236),rgb(195, 194, 194));
-  }
-  input:focus{
+    background: linear-gradient(rgb(236, 236, 236), rgb(195, 194, 194));
+}
+
+input:focus {
     color: #01b9b9;
-   /* box-shadow: 0 0 5px rgba(0,255,0,.2),
+    /* box-shadow: 0 0 5px rgba(0,255,0,.2),
                 inset 0 0 5px rgba(0,255,0,.1); */
-    background: linear-gradient(#333,#222922);
-    animation: glow .8s ease-out normal ;
-  }
-  /* animations */
-  @keyframes glow {
-     0%{
-      border-color: #01b9b9;
-      box-shadow: 0 0 5px rgba(0, 221, 255, 0.2),
-                  inset 0 0 5px rgba(0,0,0,.1);
+    background: linear-gradient(#333, #222922);
+    animation: glow .8s ease-out normal;
+}
+
+
+/* animations */
+
+@keyframes glow {
+    0% {
+        border-color: #01b9b9;
+        box-shadow: 0 0 5px rgba(0, 221, 255, 0.2), inset 0 0 5px rgba(0, 0, 0, .1);
     }
-     100%{
-      border-color: #01b9b9;
-      box-shadow: 0 0 20px rgba(0, 255, 225, 0.6),
-                  inset 0 0 10px rgba(0, 255, 225, 0.4);
+    100% {
+        border-color: #01b9b9;
+        box-shadow: 0 0 20px rgba(0, 255, 225, 0.6), inset 0 0 10px rgba(0, 255, 225, 0.4);
     }
-  }
-  button{
+}
+
+button {
     margin-top: 30px;
     border-radius: 5px!important;
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
-  }
-  button:hover{
+}
+
+button:hover {
     color: #01b9b9;
     border: 1px solid #339996;
-    box-shadow: 0 0 5px rgba(29, 231, 224, 0.3),
-                0 0 10px rgba(19, 186, 167, 0.2),
-                0 0 15px rgba(2, 50, 46, 0.1),
-                0 2px 0 black;
-  }
-  .link{
+    box-shadow: 0 0 5px rgba(29, 231, 224, 0.3), 0 0 10px rgba(19, 186, 167, 0.2), 0 0 15px rgba(2, 50, 46, 0.1), 0 2px 0 black;
+}
+
+.link {
     margin-top: 25px;
     color: #4e4e4e;
-  }
-  .link a{
+}
+
+.link a {
     color: #025050;
     text-decoration: none;
-  }
-  .link a:hover{
+}
+
+.link a:hover {
     text-decoration: underline;
-  }
+}
