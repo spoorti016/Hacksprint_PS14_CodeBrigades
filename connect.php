@@ -6,7 +6,7 @@ if (!empty($password)){
 $host = "localhost";
 $dbemail = "root";
 $dbpassword = "";
-$dbname = "youtube";
+$dbname = "bycycle";
 // Create connections
 $conn = new mysqli ($host, $dbemail, $dbpassword, $dbname);
 if (mysqli_connect_error()){
